@@ -87,8 +87,6 @@ def authorize(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = De
     """
     Logs in a user.
     """
-    print(form_data.username)
-    print(form_data.password)
     user = authenticate_user(db=db, user_email=form_data.username, password=form_data.password)
     if not user:
         raise HTTPException(
