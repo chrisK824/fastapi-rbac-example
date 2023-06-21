@@ -53,9 +53,6 @@ def get_token_payload(token: str = Depends(oauth2_scheme)):
 
 def authenticate_user(db: Session, user_email: str, password: str):
     user = db.query(User).filter(User.email == user_email).first()
-    print(user_email)
-    print(password)
-    print(user)
     if not user:
         return False
     if not verify_password(password, user.password):
