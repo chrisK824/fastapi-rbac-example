@@ -44,6 +44,7 @@ class ItemUpdate(BaseModel):
 
 
 class Item(ItemIn):
+    id: int
 
     class Config:
         orm_mode = True
