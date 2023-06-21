@@ -1,4 +1,4 @@
-from permissions.base import ModelPermission, ModelPermissions
+from permissions.base import  ModelPermissions
 
 
 class Users(ModelPermissions):
