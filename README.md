@@ -1,4 +1,4 @@
-#####  Ithaca NPO backend
+#####  FastAPI backend API to demonstrate permissioned routes
 
 #####  Stack 
 * fastAPI web framework

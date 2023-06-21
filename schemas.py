@@ -19,7 +19,11 @@ class UserUpdate(BaseModel):
     roles: Optional[Role]
 
 
-class User(UserSignUp):
+class User(BaseModel):
+    email: EmailStr
+    name: str
+    surname: Optional[str]
+    role: Role
     register_date: Optional[datetime]
 
     class Config:
