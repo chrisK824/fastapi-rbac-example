@@ -10,8 +10,8 @@ Base = declarative_base()
 
 
 def get_db():
-    ithaca_db = SessionLocal()
+    db = SessionLocal()
     try:
-        yield ithaca_db
+        yield db
     finally:
-        ithaca_db.close()
+        db.close()
