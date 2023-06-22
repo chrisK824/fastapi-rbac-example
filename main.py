@@ -3,10 +3,10 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from db_models import Base
 from database import engine
-from routers import users
+from routers import users, items
 
 description = """
-Example API to demonstrate SSO logins with FastAPI
+Example API to demonstrate distinct permissioned routes
 """
 
 
@@ -17,7 +17,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title='FastAPI SSO with providers example',
+    title='Permissioned routes example API',
     description=description,
     version="1.0.0",
     docs_url="/v1/documentation",
@@ -26,6 +26,7 @@ app = FastAPI(
 )
 
 app.include_router(users.router)
+app.include_router(items.router)
 
 if __name__ == '__main__':
     uvicorn.run(app, host="0.0.0.0", port=9999)
