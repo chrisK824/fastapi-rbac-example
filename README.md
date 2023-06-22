@@ -22,6 +22,6 @@
 * Run the server
   - `python3.11 main.py`
 * Access the API at `localhost:9999/v1`
-* Access the API documentation at `localhost:9999/v1/documentation`
+* Access the API Swagger UI documentation at `localhost:9999/v1/documentation`
 
 
