@@ -15,7 +15,7 @@
 `pip3 install -r requirements.txt`
 
 * Create admin user by inserting directly into `local_storage.db` database via an Sqlite3 browser tool:
-  - `INSERT INTO users (email,password,name,surname,register_date, role) VALUES('admin@example.com', '$2b$12$tLGdEP/3.B.sFTNITAfX5uLDzs6kgXq1PU8yxP/EnFIPBBWsvR4HG', 'Admin name', 'Admin surname', '2023-06-21', 'ADMINISTRATOR');`
+  - `INSERT INTO users (email,password,name,surname, role) VALUES('admin@example.com', '$2b$12$tLGdEP/3.B.sFTNITAfX5uLDzs6kgXq1PU8yxP/EnFIPBBWsvR4HG', 'Admin name', 'Admin surname', 'ADMINISTRATOR');`
   - Created user:
     * username: `admin@example.com`
     * password: `1234`
