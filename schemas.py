@@ -27,7 +27,7 @@ class User(BaseModel):
     register_date: Optional[datetime]
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class Token(BaseModel):
@@ -47,4 +47,4 @@ class Item(ItemIn):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
