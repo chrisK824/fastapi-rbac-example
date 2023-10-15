@@ -5,7 +5,7 @@ uvicorn==0.23.2
 sqlalchemy==2.0.21
 passlib==1.7.4
 python-jose==3.3.0
-psycopg2-binary==2.9.8
+psycopg2-binary==2.9.9
 email-validator==2.0.0.post2
 bcrypt==4.0.1
 python-multipart==0.0.6
