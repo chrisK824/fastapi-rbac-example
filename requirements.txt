@@ -8,7 +8,7 @@ python-jose==3.3.0
 psycopg2-binary==2.9.10
 email-validator==2.2.0
 bcrypt==4.2.0
-python-multipart==0.0.12
+python-multipart==0.0.16
 
 
 
