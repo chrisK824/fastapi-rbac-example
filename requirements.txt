@@ -2,7 +2,7 @@ fastapi==0.115.12
 httpx==0.28.1
 pydantic==2.11.4
 uvicorn==0.34.2
-sqlalchemy==2.0.40
+sqlalchemy==2.0.41
 passlib==1.7.4
 python-jose==3.4.0
 psycopg2-binary==2.9.10
