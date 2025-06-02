@@ -4,7 +4,7 @@ pydantic==2.11.4
 uvicorn==0.34.2
 sqlalchemy==2.0.40
 passlib==1.7.4
-python-jose==3.4.0
+python-jose==3.5.0
 psycopg2-binary==2.9.10
 email-validator==2.2.0
 bcrypt==4.3.0
