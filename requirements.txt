@@ -1,4 +1,4 @@
-fastapi==0.125.0
+fastapi==0.127.0
 httpx==0.28.1
 pydantic==2.12.5
 uvicorn==0.38.0
