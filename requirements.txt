@@ -1,7 +1,7 @@
 fastapi==0.125.0
 httpx==0.28.1
 pydantic==2.12.5
-uvicorn==0.38.0
+uvicorn==0.40.0
 sqlalchemy==2.0.45
 passlib==1.7.4
 python-jose==3.5.0
