@@ -5,14 +5,14 @@
 * Sqlite3 database
 
 #####  Installation
-* Use an environment with `python3` installed
+* Use an environment with `uv` installed
 * Open a terminal and navigate to project's folder `cd backend/`
 * Create a python virtual environment by running the following command:
-`python3.14 -m venv python_venv`
+`uv venv -p 3.14 venv`
 * Activate the python virtual environment by running the command:
-`source python_venv/bin/activate`
+`source venv/bin/activate`
 * Install requirements of app by running the following command:
-`pip3 install -r requirements.txt`
+`uv pip install -r requirements.txt`
 
 * Create admin user by inserting directly into `local_storage.db` database via an Sqlite3 browser tool:
   - `INSERT INTO users (email,password,name,surname, role) VALUES('admin@example.com', '$2b$12$tLGdEP/3.B.sFTNITAfX5uLDzs6kgXq1PU8yxP/EnFIPBBWsvR4HG', 'Admin name', 'Admin surname', 'ADMINISTRATOR');`
