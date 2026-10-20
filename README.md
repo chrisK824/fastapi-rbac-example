@@ -8,7 +8,7 @@
 * Use an environment with `python3` installed
 * Open a terminal and navigate to project's folder `cd backend/`
 * Create a python virtual environment by running the following command:
-`python3.11 -m venv python_venv`
+`python3.14 -m venv python_venv`
 * Activate the python virtual environment by running the command:
 `source python_venv/bin/activate`
 * Install requirements of app by running the following command:
@@ -20,7 +20,7 @@
     * username: `admin@example.com`
     * password: `1234`
 * Run the server
-  - `python3.11 main.py`
+  - `python3.14 main.py`
 * Access the API at `localhost:9999/v1`
 * Access the API Swagger UI documentation at `localhost:9999/v1/documentation`
 

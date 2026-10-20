@@ -98,7 +98,6 @@ class ModelPermissions:
     under the `permissions` attribute.
     """
 
-    @classmethod
-    @property
-    def permissions(cls) -> ModelDefaultPermissions: # noqa
-        return ModelDefaultPermissions(cls)
+    def __init_subclass__(cls, **kwargs):
+        super().__init_subclass__(**kwargs)
+        cls.permissions = ModelDefaultPermissions(cls)
