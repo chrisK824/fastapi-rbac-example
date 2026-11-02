@@ -1,4 +1,4 @@
-fastapi[standard]==0.161.1
+fastapi[standard]==0.162.0
 pydantic==2.14.2
 sqlalchemy==2.1.6
 python-jose==3.5.0
