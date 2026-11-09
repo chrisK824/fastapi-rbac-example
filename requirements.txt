@@ -1,5 +1,5 @@
 fastapi[standard]==0.162.0
-pydantic==2.14.2
+pydantic==2.14.3
 sqlalchemy==2.1.6
 python-jose==3.5.0
 psycopg2-binary==2.9.13
